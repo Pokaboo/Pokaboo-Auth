@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924e68cf-8736-4f69-9d83-ee9a95ec1248" name="Changes" comment="Pokaboo Auth">
-      <change afterPath="$PROJECT_DIR$/../erp-crm/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -143,7 +138,7 @@
       <workItem from="1710332530781" duration="3454000" />
       <workItem from="1710764237217" duration="5685000" />
       <workItem from="1710850888463" duration="1226000" />
-      <workItem from="1710852127381" duration="1729000" />
+      <workItem from="1710852127381" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Pokaboo Auth">
       <option name="closed" value="true" />
@@ -206,6 +201,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Pokaboo Auth" />
     <option name="LAST_COMMIT_MESSAGE" value="Pokaboo Auth" />
