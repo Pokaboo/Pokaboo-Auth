@@ -2,6 +2,7 @@ package com.pokaboo.system.controller;
 
 import com.pokaboo.common.result.Result;
 import com.pokaboo.model.system.SysMenu;
+import com.pokaboo.model.vo.AssginMenuVo;
 import com.pokaboo.system.service.SysMenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -45,4 +46,26 @@ public class SysMenuController {
         sysMenuService.removeMenuById(id);
         return Result.ok();
     }
+
+    @GetMapping("/getById/{id}")
+    @ApiOperation("回显")
+    public Result getById(@PathVariable Long id) {
+        SysMenu sysMenu = sysMenuService.getById(id);
+        return Result.ok(sysMenu);
+    }
+
+    @ApiOperation(value = "根据角色获取菜单")
+    @GetMapping("/toAssign/{roleId}")
+    public Result toAssign(@PathVariable Long roleId) {
+        List<SysMenu> list = sysMenuService.findSysMenuByRoleId(roleId);
+        return Result.ok(list);
+    }
+
+    @ApiOperation(value = "给角色分配权限")
+    @PostMapping("/doAssign")
+    public Result doAssign(@RequestBody AssginMenuVo assginMenuVo) {
+        sysMenuService.doAssign(assginMenuVo);
+        return Result.ok();
+    }
+
 }

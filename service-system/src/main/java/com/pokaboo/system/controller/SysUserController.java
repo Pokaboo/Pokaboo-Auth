@@ -3,6 +3,7 @@ package com.pokaboo.system.controller;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.pokaboo.common.result.Result;
+import com.pokaboo.common.util.MD5;
 import com.pokaboo.model.system.SysRole;
 import com.pokaboo.model.system.SysUser;
 import com.pokaboo.model.vo.SysRoleQueryVo;
@@ -43,6 +44,7 @@ public class SysUserController {
     @ApiOperation(value = "新增用户")
     @PostMapping("/save")
     public Result save(@RequestBody @Validated SysUser sysUser) {
+        sysUser.setPassword(MD5.encrypt(sysUser.getPassword()));
         boolean saveFlag = sysUserService.save(sysUser);
         return saveFlag ? Result.ok() : Result.fail();
     }

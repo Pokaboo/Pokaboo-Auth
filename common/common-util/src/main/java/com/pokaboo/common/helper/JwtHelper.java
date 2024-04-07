@@ -13,6 +13,13 @@ public class JwtHelper {
     private static long tokenExpiration = 365 * 24 * 60 * 60 * 1000;
     private static String tokenSignKey = "123456";
 
+    /**
+     * 创建令牌
+     *
+     * @param userId
+     * @param username
+     * @return
+     */
     public static String createToken(Long userId, String username) {
         String token = Jwts.builder()
                 .setSubject("AUTH-USER")
@@ -25,6 +32,12 @@ public class JwtHelper {
         return token;
     }
 
+    /**
+     * 获取token中的userid
+     *
+     * @param token
+     * @return
+     */
     public static Long getUserId(String token) {
         try {
             if (StringUtils.isEmpty(token)) return null;
@@ -39,6 +52,12 @@ public class JwtHelper {
         }
     }
 
+    /**
+     * 获取token中的username
+     *
+     * @param token
+     * @return
+     */
     public static String getUsername(String token) {
         try {
             if (StringUtils.isEmpty(token)) return "";
