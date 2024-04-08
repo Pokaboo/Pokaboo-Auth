@@ -52,7 +52,6 @@ public interface SysUserService extends IService<SysUser> {
      * 根据用户id获取用户按钮权限标识符
      *
      * @param id
-     * @return
      */
     List<String> getUserBtnPermsByUserId(Long id);
 }

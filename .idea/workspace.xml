@@ -5,8 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924e68cf-8736-4f69-9d83-ee9a95ec1248" name="Changes" comment="Pokaboo Auth">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/pokaboo/system/exception/GlobalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/base/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysOperLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/system/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/AssginMenuVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/AssginRoleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/LoginVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/MetaVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/RouterVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/SysLoginLogQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/SysOperLogQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/SysPostQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/SysRoleQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/target/classes/com/pokaboo/model/vo/SysUserQueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/controller/SysMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/SysMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/pokaboo/common/helper/JwtHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/pokaboo/common/helper/JwtHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/pokaboo/common/helper/MenuHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/pokaboo/common/helper/MenuHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/pokaboo/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/pokaboo/system/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/SysUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/com/pokaboo/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/target/classes/mapper/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/target/classes/mapper/SysMenuMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +58,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/service-system/src/main/java/com/pokaboo/system/service/impl/SysMenuServiceImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -53,30 +95,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.SysRoleMapperTest.testSelectList.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Application.executor": "JRebel Debug",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/pokaboo-auth-parent",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MD5.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SysRoleMapperTest.testSelectList.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/pokaboo-auth-parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -90,6 +133,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pokaboo.common.util.MD5" />
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokaboo.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SysRoleMapperTest.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <extension name="coverage">
@@ -115,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5" />
         <item itemvalue="JUnit.SysRoleMapperTest.testSelectList" />
       </list>
     </recent_temporary>
@@ -141,7 +198,18 @@
       <workItem from="1710332530781" duration="3454000" />
       <workItem from="1710764237217" duration="5685000" />
       <workItem from="1710850888463" duration="1226000" />
-      <workItem from="1710852127381" duration="2964000" />
+      <workItem from="1710852127381" duration="3258000" />
+      <workItem from="1710939335253" duration="278000" />
+      <workItem from="1710939635918" duration="1976000" />
+      <workItem from="1711453194056" duration="620000" />
+      <workItem from="1711453867312" duration="661000" />
+      <workItem from="1711454543593" duration="14000" />
+      <workItem from="1711456461310" duration="711000" />
+      <workItem from="1711543501164" duration="3377000" />
+      <workItem from="1711547999656" duration="1529000" />
+      <workItem from="1712491739206" duration="596000" />
+      <workItem from="1712493007740" duration="9604000" />
+      <workItem from="1712577453659" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="Pokaboo Auth">
       <option name="closed" value="true" />
@@ -167,7 +235,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710855651250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pokaboo Auth">
+      <option name="closed" value="true" />
+      <created>1710856155318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856155318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pokaboo Auth">
+      <option name="closed" value="true" />
+      <created>1710856256695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710856256695</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pokaboo Auth">
+      <option name="closed" value="true" />
+      <created>1711551013928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711551013928</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Pokaboo Auth">
+      <option name="closed" value="true" />
+      <created>1712502996187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712502996187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +304,11 @@
               </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
