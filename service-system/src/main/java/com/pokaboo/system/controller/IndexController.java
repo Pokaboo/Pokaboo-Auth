@@ -51,6 +51,7 @@ public class IndexController {
         return Result.ok(userInfo);
     }
 
+
     @PostMapping("/logout")
     @ApiOperation(value = "用户退出")
     public Result loginout() {
